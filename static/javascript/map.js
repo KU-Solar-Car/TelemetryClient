@@ -28,7 +28,7 @@ function on_select_change() {
 
 // map
 function draw_map() {
-    if(location_pairs === null) {
+    if(location_pairs == null) {
         document.getElementById("map").style.display = 'none';
         document.getElementById("no-info").style.display = 'inline';
         return;
